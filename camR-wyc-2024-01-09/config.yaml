@@ -1,0 +1,172 @@
+    # Project definitions (do not edit)
+Task: camR
+scorer: wyc
+date: Jan9
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /content/drive/MyDrive/LuLab_Xiaofei_Yixin sharing_Yuancheng/Extraction
+  and Labeling & analysis_BY YC/BalanceBeam_3D/camR-wyc-2024-01-09
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY 
+    YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/ADKI293_camR_2023-12-15_17-32-08.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY 
+    YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/ADKI296_camR_2023-12-20_11-12-30.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY 
+    YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/ADKI542_camR_2023-12-20_11-57-27.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY 
+    YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/ADKI603_camR_2023-12-15_16-47-19.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY 
+    YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/ADKI688_camR_2023-12-15_17-00-56.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/WT665_camR_2024-01-25_16-26-30.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/WT739_camR_2024-01-25_12-16-17.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/WT742_camR_2024-01-24_16-29-38.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/WT746_camR_2024-01-25_12-27-30.mp4
+  : crop: 0, 1280, 0, 720
+  ? /Users/yuanchenwang/Library/CloudStorage/GoogleDrive-yuanchen.wang79@gmail.com/.shortcut-targets-by-id/1HwmmBaVNGnvstFsQoeaqCLyTIKZ0HoD2/LuLab_Xiaofei_Yixin
+    sharing_Yuancheng/Extraction and Labeling & analysis_BY YC/BalanceBeam_3D/camR-wyc-2024-01-09/videos/WT775_camR_2024-01-25_15-57-14.mp4
+  : crop: 0, 1280, 0, 720
+bodyparts:
+- nose
+- base_neck
+- mid_spine
+- base_tail
+- mid_tail
+- tail_tip
+- L_shoulder
+- L_elbow
+- L_forepaw
+- R_shoulder
+- R_elbow
+- R_forepaw
+- L_thigh
+- L_knee
+- L_hindpaw
+- R_thigh
+- R_knee
+- R_hindpaw
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - nose
+  - base_neck
+- - base_neck
+  - mid_spine
+- - mid_spine
+  - base_tail
+- - base_tail
+  - mid_tail
+- - mid_tail
+  - tail_tip
+- - L_shoulder
+  - nose
+- - L_shoulder
+  - base_neck
+- - L_shoulder
+  - mid_spine
+- - L_shoulder
+  - L_thigh
+- - L_shoulder
+  - L_elbow
+- - L_elbow
+  - L_forepaw
+- - R_shoulder
+  - nose
+- - R_shoulder
+  - base_neck
+- - R_shoulder
+  - mid_spine
+- - R_shoulder
+  - R_thigh
+- - R_shoulder
+  - R_elbow
+- - R_elbow
+  - R_forepaw
+- - L_thigh
+  - mid_spine
+- - L_thigh
+  - base_tail
+- - L_thigh
+  - L_knee
+- - L_knee
+  - L_hindpaw
+- - R_thigh
+  - mid_spine
+- - R_thigh
+  - base_tail
+- - R_thigh
+  - R_knee
+- - R_knee
+  - R_hindpaw
+
+skeleton_color: white
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

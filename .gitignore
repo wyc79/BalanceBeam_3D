@@ -1,0 +1,15 @@
+*.DS_Store
+
+*.pickle
+*.h5
+*.mp4
+*.csv
+
+*.png
+*.mat
+# *.yaml
+*.xlsx
+
+
+*/dlc_analyzed/
+*/dlc-models/
